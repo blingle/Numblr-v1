@@ -2,9 +2,13 @@ Numblr-v1
 =========
 
   Author:  Brent Lingle
+  
   WebSite: http://www.brentisyourfriend.com
+  
   Contact: lingle.brent@gmail.com
+  
   Version: 1.0
+  
   Notes:   If you find any bugs, have questions or concerns, please
            feel free to e-mail me!
 
@@ -18,10 +22,12 @@ Numblr-v1
   in group or single format.
 
   MIT Licensed
+  
   Tumblr API version: v2
+  
   Node.js Version: v0.6.17
  
-  You'll need 1 things:
+  You'll need 1 thing:
      1. Oauth key consumer key (api_key), provided by Tumblr
 
   Visit the README.md file on github for the Documentation.
@@ -33,7 +39,7 @@ Methods
 
 //avatar method
 
-  numblr.avatar(hostName, size, cb)
+    numblr.avatar(hostName, size, cb)
   
     hostName: (required) The host name of the tumblr blog.
       ex. "brentisyourfriend".tumblr.com'
@@ -54,7 +60,7 @@ Methods
 
 //info method
 
-  numblr.info(hostName, apiKey, cb)
+    numblr.info(hostName, apiKey, cb)
 
     hostName: (required) The host name of the tumblr blog.
       ex. "brentisyourfriend".tumblr.com'
@@ -84,7 +90,7 @@ Methods
       
 //posts method
 
-  numblr.posts(hostName, apiKey, limit, offset, cb)
+    numblr.posts(hostName, apiKey, limit, offset, cb)
   
     hostName: (required) The host name of the tumblr blog.
       ex. "brentisyourfriend".tumblr.com'
@@ -116,15 +122,15 @@ Methods
           
 // Example on how to use this module
 
-var numblr = require('numblr');
+    var numblr = require('numblr');
 
-numblr.avatar('#someHost-Name', 512, function(err, data) {
-  if ( data ) {
-    //returned callback data
-  } else {
-   //error
-  }
-});
+    numblr.avatar('#someHost-Name', 512, function(err, data) {
+        if ( data ) {
+            //returned callback data
+        } else {
+            //error
+        }
+    });
           
           
           
