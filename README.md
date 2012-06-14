@@ -3,8 +3,6 @@ Numblr-v1
 
   Author:  Brent Lingle
   
-  WebSite: http://www.brentisyourfriend.com
-  
   Contact: lingle.brent@gmail.com
   
   Version: 1.0
