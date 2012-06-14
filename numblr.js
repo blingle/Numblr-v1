@@ -1,6 +1,5 @@
 /*
   Author:  Brent Lingle
-  WebSite: http://www.brentisyourfriend.com
   Contact: lingle.brent@gmail.com
   Version: 1.0
   Notes:   If you find any bugs, have questions or concerns, please
