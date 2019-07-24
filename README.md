@@ -1,9 +1,5 @@
 Numblr-v1
 =========
-
-  Author:  Brent Lingle
-  
-  Contact: lingle.brent@gmail.com
   
   Version: 1.0
   
@@ -134,11 +130,3 @@ Methods
           
 For more information please visit:
 http://www.tumblr.com/docs/en/api/v2
-          
--or-
-
-contact me:
-
-Brent Lingle
-lingle.brent@gmail.com
-(changes and collaboration are welcome!)
